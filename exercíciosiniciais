@@ -1,0 +1,26 @@
+msg = "Olá"
+nome = input('Qual é o seu nome?')
+print (msg, nome)
+print ("======= DESAFIO 1 =======")
+nome = input ("Qual é o seu nome? ")
+print ("Olá ", nome, "! Prazer em te conhecer!")
+dia = input ('Que dia é o dia do seu aniver?')
+mês = input ('Que mês é o mês do seu aniver?')
+ano = input ('Que ano é o ano do seu aniver?')
+msg = 'Você nasceu...'
+print (msg, dia, mês, ano)
+n1 = int(input ('Digite'))
+n2 = int (input('Digite'))
+s= n1+n2
+print('A soma entre', n1, 'e', n2, 'vale',s)
+a = input ('Digite a variável')
+print ('O tipo primitivo dessa variável é...', type (a))
+print ('Tem espaços?', a.isspace())
+print ('É maiúscula?', a.isupper())
+print ('É minúscula', a.islower())
+print ('É númerico',a.isnumeric())
+print ('É letra', a.isalpha())
+a = int(input('Digite: '))
+a2 = a-1
+a3 = a+1
+print ('Os números são...',a2, a, a3)
