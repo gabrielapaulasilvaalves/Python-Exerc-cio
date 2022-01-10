@@ -1,0 +1,53 @@
+print("======= DESAFIO 5 =======")
+a = int(input("Digite um número inteiro "))
+sucessor = a+1
+antecessor = a-1
+print("Seu sucessor é ", sucessor, " e seu antecessor é ", antecessor)
+import math
+a = float(input('Digite: '))
+a2 = a+a
+a3 = a+a+a
+a4 = math.sqrt(a)
+print ('Os números são...',a2, a, a3,a4)
+import math
+print("======= DESAFIO 6 =======")
+a = float(input("Digite um número "))
+dobro = a*2
+triplo = a*3
+raiz = math.sqrt(a)
+print("Dobro: ", dobro, " Triplo: ", triplo, " Raiz: ", raiz)
+import math
+print("======= DESAFIO 6 =======")
+a = float(input("Digite um número "))
+dobro = a*2
+triplo = a*3
+raiz = math.sqrt(a)
+print("Dobro: ", dobro, " Triplo: ", triplo, " Raiz: ", raiz)
+número = int(input('Por favor, digite um número e mostraremos sua tabuada'))
+a1= número
+a2 = número*2
+a3 = número*3
+a4 = número*4
+a5 = número*5
+a6 = número*6
+a7 = número*7
+a8 = número*8
+a9 = número*9
+a = número*10
+print('A tabuada de', número, 'é:', número, 'x 1 =',
+      a1,',', número, 'x 2 =',
+      a2,',', número, 'x 3 =',
+      a3, ',', número, 'x 4 =',
+      a4, ',', número, 'x 5 =',
+      a5, ',', número, 'x 6 =',
+      a6, ',', número, 'x 7 =', 
+      a7, ',', número, 'x 8 =', 
+      a8,',', número, 'x 9 =', 
+      a9, ',', número, 'x 10 =', a)
+      print("======= DESAFIO 11 =======")
+altura = float(input("Digite a altura: "))
+largura = float(input("Digite a largura: "))
+area = altura*largura
+qtddTinta = area/2
+print("A área é ", area, " e precisaremos de ",
+      qtddTinta, " litros de tinta para pintá-la.")
